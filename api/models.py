@@ -63,7 +63,7 @@ class User(AbstractUser):
 
     @property
     def is_admin(self):
-        return self.role == User.ADMIN or self.is_staff
+        return self.role == User.ADMIN
 
     @property
     def is_user(self):
