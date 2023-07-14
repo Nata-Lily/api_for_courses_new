@@ -4,10 +4,10 @@
 ```bash
 Unix
 python3 -m venv venv
-source env/bin/activate
+source venv/bin/activate
 Windows
 python -m venv venv
-source env/Scripts/activate
+source venv/Scripts/activate
 ```
 - Установить зависимости из файла requirements.txt:
 
